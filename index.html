@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Chheng Sombathoudom</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="/index.html" class="link"
+          >DoM.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Chheng SombathouDoM.</span></h1>
+        <h2 class="about__role">A Back end Developer.</h2>
+        <p class="about__desc">
+          Hello Everyone. <br> Thanks for visting my profolio website. <br>
+          Let me introduce myself for a bit before scroll down.
+          As you can see on the top of the my site by the way you can call me <b>DoM</b><br> I'm just a web developer with 3 years experience.
+          Across 2-3 frameworks and finshed more than 10 projects go live.
+          I helped more than 20 freshmans about algorithm and code.
+          Thanks for choosing me to be your part. <br>
+          <b>My commitment i'll help your bussiness become more flexible.</b><br>
+          
+
+        </p>
+        <strong style="text-align: center; margin-top: 15px;">Check out my resume</strong>
+        <div class="about__contact center">
+          <a href="https://example.com">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/sombathoudom"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/sombathoudom-chheng-53a857143/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>The HomeED Acedemy</h3>
+            <p class="project__description">
+              HomeED education is an international community of diverse professional who focus to solve any education challenges.<br>
+              <b>What i do in this project:  Code, Design Bussiness flow, Deploy, Analysis, Database Design...</b>
+             
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Meteor Js</li>
+              <li class="project__stack-item">Bootstrap 3</li>
+            </ul>
+            <a
+              href="https://www.homeed.asia/"
+              aria-label="live preview"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>UT Swap</h3>
+            <p class="project__description">
+              UT Swap is an end-to-end platform that offers alternative financing & investment solutions to qualified property owners and investors.<br>
+              All investments involve risks, including the possible loss of capital.<br>
+              <b>What i do in this project:  Code, Built function by following bussiness flow...</b>
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Bootstrap 3</li>
+              <li class="project__stack-item">ThinkPHP</li>
+            </ul>
+            <a
+              href="https://utswap.io/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Zpoin</h3>
+            <p class="project__description">
+              ZPOIN IS THE ZILLENNIUM COMMUNITY MEMBERS' BENEFIT POINTS<br>
+              We consider ZPOIN as the blood inside the body if the community is the body.<br>
+              ZPOIN will help create more value for our community, its members, business units, and business partners with clear policy and tools.<br>
+              <b>What i do in this project:  Code, Built function to support BU, Databse Design, Deploy, Report....</b>
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Bootstrap 3</li>
+              <li class="project__stack-item">Meteor Js</li>
+            </ul>
+            <a
+              href="https://zpoin.com/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">Bootstrap</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">TypeScript (Coming Soon)</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Laravel</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Meteor Js</li>
+          <li class="skills__list-item btn btn--plain">VueJs</li>
+          <li class="skills__list-item btn btn--plain">ThinkPHP</li>
+          <li class="skills__list-item btn btn--plain">API</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:sombathoudom001@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="index.html"
+        class="link footer__link"
+      >
+       Thanks for came here.
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
